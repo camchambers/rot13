@@ -1,6 +1,4 @@
 # ROT13 Encryption
-An example of ROT13 encryption in Python. 
+An example of ROT13 cipher in Python. 
 
-## To Do
-- Take input as a program argument 
-- See if you can pipe text into the program
+![An  example of the ROT13 cipher being used in a terminal.](/../screenshots/screenshots/example.png?raw=true)
