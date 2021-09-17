@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys
-# Define a translation table to perform the mapping between characters
+# Define a translation table to perform a mapping between characters
 rot13trans = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
                            'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm')
 
