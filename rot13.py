@@ -6,14 +6,14 @@ rot13trans = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
                            'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm')
 
 
-def rot13(text):
+def encrypt(text):
     """ Translate the text """
     return text.translate(rot13trans)
 
 
 def main():
     for line in sys.stdin:
-        sys.stdout.write(rot13(line))
+        sys.stdout.write(encrypt(line))
 
 
 if __name__ == "__main__":
