@@ -34,3 +34,12 @@ echo "abc" | ./rot13.py
 ```
 ./rot13.py < poem.txt > rot13_output.txt
 ```
+
+## Testing
+
+Ensure that [pytest](https://docs.pytest.org/en/6.2.x/getting-started.html) is installed.
+
+Run tests: 
+```
+pytest -v test_rot13.py
+```
