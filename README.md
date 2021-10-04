@@ -8,8 +8,8 @@ Applies a ROT13 cipher from standard input.
 ## Examples
 
 ```
-echo "abc" | ./rot13.py
-> nop
+ ./rot13.py <<< "This is a test"
+> Guvf vf n grfg
 ```
 
 ```
